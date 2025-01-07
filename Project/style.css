@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}/*창원단감아삭체*/
+
+@font-face {
+    font-family: 'NPSfontBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}/*국민연금체*/
+
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}/*둘기마요고딕*/
+
+
+h1 {
+    text-align: center;
+    color: #EA445A;
+    text-shadow: 4px 4px white;
+    font-size: 70px;
+    font-family: CWDangamAsac-Bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    color: #74F0ED;
+    font-size: 25px;
+    text-shadow: 2px 2px white;
+    font-family: CWDangamAsac-Bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #74F0ED;
+    font-family: Dovemayo_gothic;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 70px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    border: 5px solid;
+    padding: 10px;
+    background-color : #ffffff;
+}
+
+.first-place {
+    border-color: #D5A11E;
+}
+
+.second-place {
+    border-color: #A3A3A3;
+}
+
+.third-place {
+    border-color: #CD7F32;
+}
+
+.grid-item a {
+    font-size: 20px;
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    text-decoration: none;
+    font-family: NPSfontBold;
+}
+.grid-item p {
+    font-family: NPSfontBold;
+    color: black;
+}
+p{
+	font-family: NPSfontBold;
+    color: #ffffff;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: NPSfontBold;
+}
+
+#summary {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width : 50%;
+    height : 20%;
+    font-family : "Dovemayo_gothic";
+    font-size : 15px;
+}
+
+input[type="text"],
+textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family : "NPSfontBold";
+}
+.reviewer-name-input {
+    width: 20%;
+}
+
+.review-text-textarea {
+    width: 50%;
+    height: 30%;
+}
+
+input[type="submit"] {
+    background-color: #5AEA44;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: NPSfontBold;
+}
+
+input[type="submit"]:hover {
+    background-color: #368C28;
+}
+
+ul {
+    list-style-type: none;
+    padding-left : 0;
+    padding-right : 50%;
+}
+
+li {
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
